@@ -6,6 +6,7 @@ import {
 	createFilesForExt,
 	createWhereToPrintFiles,
 	updateLinksToImportrange,
+	setTitle,
 } from './prepareStructure';
 import { startTimeTrigger, cancelTimeTriggers } from './triggers';
 
@@ -25,6 +26,7 @@ global.randomHub = () => {
 
 // @ts-ignore
 global.menu = {
+	test: () => setTitle(),
 	createFolderStructure,
 	createFilesForExt,
 	createWhereToPrintFiles,
@@ -64,6 +66,8 @@ const menu = () => {
 			'4. updateLinksToImportrange',
 			'menu.updateLinksToImportrange'
 		)
+		.addSeparator()
+		.addItem('Test', 'menu.test')
 		.addSeparator()
 		.addItem('Update menu', 'onOpen')
 		.addToUi();
