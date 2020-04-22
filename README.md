@@ -1,4 +1,4 @@
-# Perf. Exp | A.1.1 - Zapis : Entry by Entry : 1 min
+# Perf. Exp | A.1.1 - Zapis : By Range : 1 min
 
 #### Cel
 Poznanie czasów zapisu danych dla:
